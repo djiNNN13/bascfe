@@ -1,0 +1,233 @@
+.phone-position {
+  background-color: #d6e3bc;
+  height: 250px;
+  width: 150px;
+  border: 2px solid #000000;
+  margin-top: 50px;
+  border-radius: 30px;
+  position: relative;
+}
+.screen {
+  width: 80%;
+  height: 45%;
+  background-color: white;
+  position: absolute;
+  left: 14px;
+  top: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.screen-time {
+  position: absolute;
+  top: 35px;
+  left: 16px;
+  font-size: 2.5em;
+}
+.device-button-1 {
+  border: 2px solid #000000;
+  background-color: #3f3151;
+  height: 22px;
+  width: 23px;
+  border-radius: 50px;
+  position: absolute;
+  top: 135px;
+  left: 25px;
+}
+
+.device-button-2 {
+  border: 2px solid #000000;
+  background-color: #3f3151;
+  height: 22px;
+  width: 23px;
+  border-radius: 50px;
+  position: absolute;
+  top: 135px;
+  left: 65px;
+}
+.device-button-3 {
+  border: 2px solid #000000;
+  background-color: #3f3151;
+  height: 22px;
+  width: 23px;
+  border-radius: 50px;
+  position: absolute;
+  top: 135px;
+  left: 105px;
+}
+.device-button-4 {
+  border: 2px solid #000000;
+  background-color: #3f3151;
+  height: 22px;
+  width: 23px;
+  border-radius: 50px;
+  position: absolute;
+  top: 175px;
+  left: 25px;
+}
+.device-button-5 {
+  border: 2px solid #000000;
+  background-color: #3f3151;
+  height: 22px;
+  width: 23px;
+  border-radius: 50px;
+  position: absolute;
+  top: 175px;
+  left: 65px;
+}
+.device-button-6 {
+  border: 2px solid #000000;
+  background-color: #3f3151;
+  height: 22px;
+  width: 23px;
+  border-radius: 50px;
+  position: absolute;
+  top: 175px;
+  left: 105px;
+}
+.device-button-7 {
+  border: 2px solid #000000;
+  background-color: #3f3151;
+  height: 22px;
+  width: 23px;
+  border-radius: 50px;
+  position: absolute;
+  top: 215px;
+  left: 25px;
+}
+.device-button-8 {
+  border: 2px solid #000000;
+  background-color: #3f3151;
+  height: 22px;
+  width: 23px;
+  border-radius: 50px;
+  position: absolute;
+  top: 215px;
+  left: 65px;
+}
+.device-button-9 {
+  border: 2px solid #000000;
+  background-color: #3f3151;
+  height: 22px;
+  width: 23px;
+  border-radius: 50px;
+  position: absolute;
+  top: 215px;
+  left: 105px;
+}
+
+.phone-transform {
+  background-color: #d6e3bc;
+  height: 250px;
+  width: 150px;
+  border: 2px solid #000000;
+  border-radius: 30px;
+  transform: translate(250px, -252px);
+}
+
+.screen-transform {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 80%;
+  height: 45%;
+  transform: translate(14px, 10px);
+}
+.screen-time-transform {
+  font-size: 2.5em;
+  transform: translate(15px, 35px);
+}
+
+.button-transform-1 {
+  border: 2px solid #000000;
+  background-color: #3f3151;
+  border-radius: 50px;
+  height: 22px;
+  width: 23px;
+  transform: translate(25px, 15px);
+}
+
+.button-transform-2 {
+  border: 2px solid #000000;
+  background-color: #3f3151;
+  border-radius: 50px;
+  height: 22px;
+  width: 23px;
+  transform: translate(65px, -11px);
+}
+.button-transform-3 {
+  border: 2px solid #000000;
+  background-color: #3f3151;
+  border-radius: 50px;
+  height: 22px;
+  width: 23px;
+  transform: translate(105px, -37px);
+}
+.button-transform-4 {
+  border: 2px solid #000000;
+  background-color: #3f3151;
+  border-radius: 50px;
+  height: 22px;
+  width: 23px;
+  transform: translate(25px, -25px);
+}
+.button-transform-5 {
+  border: 2px solid #000000;
+  background-color: #3f3151;
+  border-radius: 50px;
+  height: 22px;
+  width: 23px;
+  transform: translate(65px, -51px);
+}
+.button-transform-6 {
+  border: 2px solid #000000;
+  background-color: #3f3151;
+  border-radius: 50px;
+  height: 22px;
+  width: 23px;
+  transform: translate(105px, -77px);
+}
+.button-transform-7 {
+  border: 2px solid #000000;
+  background-color: #3f3151;
+  border-radius: 50px;
+  height: 22px;
+  width: 23px;
+  transform: translate(25px, -63px);
+}
+.button-transform-8 {
+  border: 2px solid #000000;
+  background-color: #3f3151;
+  border-radius: 50px;
+  height: 22px;
+  width: 23px;
+  transform: translate(65px, -89px);
+}
+.button-transform-9 {
+  border: 2px solid #000000;
+  background-color: #3f3151;
+  border-radius: 50px;
+  height: 22px;
+  width: 23px;
+  transform: translate(105px, -115px);
+}
+
+td {
+  height: 16px;
+  min-width: 100px;
+  text-align: center;
+}
+
+tr:first-child {
+  background-color: #868f8f;
+}
+tr:nth-child(2) {
+  background-color: #f5f586;
+}
+
+tr:first-child:hover {
+  background-color: #f5f586;
+}
+
+tr:nth-child(2):hover {
+  background-color: #868f8f;
+}
